@@ -26,6 +26,8 @@ ex: aprovado/reprovado, ganhar/perder, saudável/doente
 
 É necessário criar a linha em formato de *S* para classificar os registros
 
+![](regressao_logistica.png)
+
 ### Random Forest
 
 É considerado com conjunto e algoritmos (ensemble)
