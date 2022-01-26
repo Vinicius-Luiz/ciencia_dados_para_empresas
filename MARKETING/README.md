@@ -151,15 +151,27 @@ Quando o valor do WCSS não possui uma queda tão brusca, não é interessante a
 >
 > G7: Clientes novos (7 anos)
 
-| Grupo | Descrição                                                    |
-| ----- | ------------------------------------------------------------ |
-| G0    | Realizam compras a vista com muita frequência (0,77)         |
-| G1    | Clientes possuem menos saldo em conta(104,33); Realizam valores baixos de empréstimos no cartão de crédito (282,68); Realizam compras com pouca frequência (0,27); Realizam compras a vista com pouca frequência. |
-| G2    | Realizam valores altos de empréstimos no cartão de crédito (5139,99); Realizam empréstimo no cartão de crédito com mais frequência (0,52); Pagam o valor total da fatura com pouca frequência. |
-| G3    | Efetuam compras mais baratas (246,05); Efetuam compras mais baratas parceladas (50,36); Realizam compras com pouca frequência (0,15); Realizam compras a vista com pouca frequência; Realizam compras parceladas com pouca frequência; Pagam o valor total da fatura com pouca frequência. |
-| G4    | Clientes com maior saldo em conta (5448,2); Efetuam compras mais caras (27916,56); Efetuam compras mais caras a vista (22354,31); Realizam compras frequentemente (0,91); Realizam compras a vista com muita frequência (0,85); Possuem limite de crédito muito alto (16043,48); Pagam o valor total da fatura com mais frequência (0,52). |
-| G5    | Efetuam compras mais baratas a vista (142,23); Realizam compras a vista com pouca frequência; Efetuam muitos pagamentos com o valor mínimo da fatura (27628,63); Pagam o valor total da fatura com pouca frequência. |
-| G6    | Realizam valores baixos de empréstimos no cartão de crédito (221,18); Realizam compras a vista com pouca frequência; Realizam compras parceladas com mais frequência (0,84) |
-| G7    | Possuem limite de crédito baixo (2446,42); Clientes novos (7 anos). |
-| G8    | Efetuam compras mais caras parceladas (2810,14); Realizam compras frequentemente (0,96); Realizam compras parceladas com mais frequência (0,86). |
+| Grupo | Descrição                                                    | OBS                                                 |
+| ----- | ------------------------------------------------------------ | --------------------------------------------------- |
+| G0    | Realizam compras a vista com muita frequência (0,77)         |                                                     |
+| G1    | Clientes possuem menos saldo em conta(104,33); Realizam valores baixos de empréstimos no cartão de crédito (282,68); Realizam compras com pouca frequência (0,27); Realizam compras a vista com pouca frequência. | Cuidadosos com seu dinheiro                         |
+| G2    | Realizam valores altos de empréstimos no cartão de crédito (5139,99); Realizam empréstimo no cartão de crédito com mais frequência (0,52); Pagam o valor total da fatura com pouca frequência. | Setor mais lucrativo para o banco (juros do cartão) |
+| G3    | Efetuam compras mais baratas (246,05); Efetuam compras mais baratas parceladas (50,36); Realizam compras com pouca frequência (0,15); Realizam compras a vista com pouca frequência; Realizam compras parceladas com pouca frequência; Pagam o valor total da fatura com pouca frequência. |                                                     |
+| G4    | Clientes com maior saldo em conta (5448,2); Efetuam compras mais caras (27916,56); Efetuam compras mais caras a vista (22354,31); Realizam compras frequentemente (0,91); Realizam compras a vista com muita frequência (0,85); Possuem limite de crédito muito alto (16043,48); Pagam o valor total da fatura com mais frequência (0,52). | (VIP/PRIME) Aumentar o limite e o hábito de compras |
+| G5    | Efetuam compras mais baratas a vista (142,23); Realizam compras a vista com pouca frequência; Efetuam muitos pagamentos com o valor mínimo da fatura (27628,63); |                                                     |
+| G6    | Realizam empréstimos no cartão de crédito com valores baixos (221,18); Realizam compras a vista com pouca frequência; Realizam compras parceladas com mais frequência (0,84) |                                                     |
+| G7    | Possuem limite de crédito baixo (2446,42); Clientes novos (7 anos). | Clientes novos                                      |
+| G8    | Efetuam compras mais caras parceladas (2810,14); Realizam compras frequentemente (0,96); Realizam compras parceladas com mais frequência (0,86). |                                                     |
 
+## PCA - Principal Component Analysis
+
+É utilizado para redução da redimensionalidade. Ajuda na visualização do agrupamento
+
+<img src="graph9.png"/>
+
+- É um algoritmo de aprendizagem não supervisionada
+  - Não há uma classe que eu queira fazer previsão
+- Aplica a redução de dimensionalidade, porém, tentar manter as informações originais com as mesmas características
+- Encontra um novo conjunto de características que são chamados de componentes
+- Os componentes são criados por meio das características não correlacionadas
+  - Torna possível a redução dos principais componentes
