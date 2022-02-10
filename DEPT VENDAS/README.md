@@ -28,7 +28,7 @@ Fazer a previsão de vendas no futuro utilizando dados do passado.
 | Assorment                      | Tipo de loja (a=basic; b=extra; c=extended)                  |
 | ComptetitionDistance (metros)  | Distância para loja concorrente mais perto                   |
 | CompetitionOpenSince (mes/ano) | Data que a concorrente foi aberta                            |
-| Promo2                         | Promoção contínua e consecutiva em algumas lojas (0 = não está participando; 1 = está participando) |
+| Promo2                         | Promoção contínua e consecutiva em algumas lojas; promoção adicional; sua participação na loja é opcional (0 = não está participando; 1 = está participando) |
 | Promo2Since (ano/semana)       | Data quando a loja começou a participar da Promo2            |
 | PromoInterval (meses)          | Intervalos consecutivos que a Promo2 é iniciada. Exemplo. "Feb,May,Aug,Nov" indica que cada "round" da promoção começa nesses meses |
 
