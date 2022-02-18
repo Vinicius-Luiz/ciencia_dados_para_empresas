@@ -32,3 +32,10 @@ Fazer a previsão de vendas no futuro utilizando dados do passado.
 | Promo2Since (ano/semana)       | Data quando a loja começou a participar da Promo2            |
 | PromoInterval (meses)          | Intervalos consecutivos que a Promo2 é iniciada. Exemplo. "Feb,May,Aug,Nov" indica que cada "round" da promoção começa nesses meses |
 
+
+## Facebook Prophet (Profeta)
+
+- Permite a previsão de séries temporais baseado em "regressão aditiva"
+- Tendências não lineares podem ser descobertas anualmente, semanalmente, diariamente (considera feriados)
+- Funciona melhor com efeitos sazonais e com grande quantidade de dados
+
