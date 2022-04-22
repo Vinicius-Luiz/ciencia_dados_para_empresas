@@ -14,3 +14,17 @@ Os clientes podem fazer uma review dos produtos da empresa através de um texto 
 - O processamento de linguagem natural pode ser utilizado para prever se clientes estão ou não satisfeitos. Essa é uma área responsável pela análise da linguagem humana, tanto texto quanto voz.
 - Conversão de letras para números para treinar os modelos de aprendizagem de máquina.
 - Não há necessidade de analisar os textos manualmente
+
+### Tokenização (Count Vectorizer)
+
+Transformar letra em números para passar aos algoritmos de aprendizagem de máquina
+
+> This is the first document.  
+>
+> This document is the second document.  
+>
+> And this is the third one.  
+>
+> Is this the first document?  
+
+![](count_vectorizer.png)
